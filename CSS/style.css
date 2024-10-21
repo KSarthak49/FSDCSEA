@@ -20,7 +20,10 @@ text-align: center;
     height: 30px;
     text-align: center;
    
-} */
+}
+    for sibling 
+    div+p
+     */
  div p  {
     background-color: aquamarine;
    

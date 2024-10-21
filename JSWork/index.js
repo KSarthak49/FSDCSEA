@@ -53,40 +53,41 @@ function javaCompiler(cComplier){
 //         af.push(arr[i][j]);
 //     }
 // }
-// // console.log(af);
-// //flat function is used to convert the 2D array into 1D array
-// // console.log(arr.flat());
-// //Dom is the Document obejct model which is used to manipulate the html elements
-// //dom tree root element is document and there childer is html and css
-// console.log(document);
-// const div=document.getElementsByClassName("parent")
-// console.log(div);
-// // div[0].innerText="ABES Engineering College";\
-// div[0].innerHTML="<h2 style=color : red >ABES Engineering College</h2>";
-// const h1=document.createElement("h1");
-// h1.innerText="Elemnt is created by Dom fucntion"
-// h1.style.backgroundColor="cyan";
-// h1.style.color="red";
-// div[0].appendChild(h1);
-// // div[1].appendChild(h1);
-// console.log(h1);
-// const img=document.createElement("img");
-// img.src='cat.jpeg';
-// img.setAttribute("height","200px");
-// console.log(img);
-// div[0].appendChild(img)
+console.log(af);
+// flat function is used to convert the 2D array into 1D array
+console.log(arr.flat());
+// Dom is the Document obejct model which is used to manipulate the html elements
+// dom tree root element is document and there childer is html and css
+console.log(document);
+const div=document.getElementsByClassName("parent")
+console.log(div);
+// div[0].innerText="ABES Engineering College";\
+div[0].innerHTML="<h2 style=color : red >ABES Engineering College</h2>";
+const h1=document.createElement("h1");
+h1.innerText="Elemnt is created by Dom fucntion"
+h1.style.backgroundColor="cyan";
+h1.style.color="red";
+div[0].appendChild(h1);
+// div[1].appendChild(h1);
+console.log(h1);
+const img=document.createElement("img");
+// Set the source of the image to 'cat.jpeg'
+img.src='cat.jpeg';
+img.setAttribute("height","200px");
+console.log(img);
+div[0].appendChild(img)
 
 
 
-// const gg=document.getElementById("btn");
-// console.log(gg);
-// const display=document.getElementById("disp");
-// console.log(display);
-// getData=()=>{
-// console.log("Calling getdata fucntion");
-// display.innerHTML="<h3 style=color:pink>Welcome to CSE Depratment</h3>";
-// }
-// gg.addEventListener("click",getData);
+const gg=document.getElementById("btn");
+console.log(gg);
+const display=document.getElementById("disp");
+console.log(display);
+getData=()=>{
+console.log("Calling getdata fucntion");
+display.innerHTML="<h3 style=color:pink>Welcome to CSE Depratment</h3>";
+}
+gg.addEventListener("click",getData);
 
 
 //-----------creating the promise ----------------

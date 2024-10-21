@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(94, 92, 219, 0.356);
+}
+.container{
+/* height: 500px;
+width: 400px; */
+border: 2px solid black;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;  
+gap: 20px;
+align-content: center;
+}
+.child1,.child2,.child3,.child4{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    /* display: inline-block; */
+
+    margin: 10px;   
+}
+.child1{
+    background-color: aquamarine;
+    flex-basis: 10px;
+}
+.child2{
+    background-color: bisque;
+}
+.child3{
+    background-color: chocolate;
+}
+.child4{
+    background-color: darkgoldenrod;
+}
